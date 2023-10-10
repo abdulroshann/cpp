@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char ch;
+    cout<<"enter ch: ";
+    cin>>ch;
+    if(ch=='p')
+    cout<<"prepbytes";
+    else if(ch=='z')
+      cout<<"zenith";
+    else if(ch=='e')
+      cout<<"expert coder";
+    else if(ch=='d')
+        cout<<"data structure";
+    
+    else 
+    cout<<"enter only between p,z,e,d";
+      return 0;
+  }
