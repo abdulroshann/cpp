@@ -1,19 +1,16 @@
-#include <bits/stdc++.h>
-  using namespace std;
-  
-  int main()
-  {
-    int i, rev=0, n;
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+int n;
+cout<<"enter the number : ";
+cin>>n;
+while(n!=0){
+    int ld=n%10;
+    n=n/10;
     
-    cin>> i;
-    while(i>0)
-    {
-      rev=(rev*10)+i%10;
-      i=i/10;
-      
-    }
-    cout<<rev;
-    //write your code here
-    
-    return 0;
-  }
+
+cout<<ld;}
+return 0;
+}
